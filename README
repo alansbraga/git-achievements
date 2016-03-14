@@ -58,6 +58,9 @@ Set-Alias git $HOME\git\git-achievements\git-achievements.ps1
 
 Open a new session, or run . $PROFILE, to apply the changes.
 
+I had problems with the "which" command on Windows 10. I've created the following configuration to avoid problems:
+git config --global achievement.script "{path to git-achievements script }"
+
 You can get your first achievement by running
 
     git achievements --help
